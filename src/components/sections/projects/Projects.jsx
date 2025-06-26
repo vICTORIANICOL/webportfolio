@@ -33,7 +33,7 @@ export const Projects = () => {
       image: img3,
       description:
         "This project is a mobile-only shopping application where users can browse and select products with ease. I implemented a full cart functionality, allowing users to add items, adjust quantities, remove products, and place orders directly from the app. The interface is optimized for smaller screens, ensuring a smooth and intuitive user experience from product selection to checkout.Additionally, the site includes a subscription option for users.",
-      tech: ["HTML", "CSS", "React", "JavaScript", "Figma"],
+      tech: ["HTML", "CSS", "React", "JavaScript", "Figma", "MongoDB"],
       link: "https://victorianicol.github.io/BlogVagabond-main/#/",
     },
   ];
