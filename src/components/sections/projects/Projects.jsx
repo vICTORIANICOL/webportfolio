@@ -58,9 +58,15 @@ export const Projects = () => {
             <div key={index} className={styles.projectCard}>
               <img src={project.image} alt={project.title} />
 
-              <div className={styles.mobileOverlay}>
+              {/* <div className={styles.mobileOverlay}>
                 <button onClick={() => toggleOverlay(index)}>More</button>
-              </div>
+              </div> */}
+
+              {activeIndex !== index && (
+                <div className={styles.mobileOverlay}>
+                  <button onClick={() => toggleOverlay(index)}>More</button>
+                </div>
+              )}
 
               <div
                 className={`${styles.projectOverlay} ${

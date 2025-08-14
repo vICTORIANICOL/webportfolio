@@ -191,7 +191,7 @@
 @media (max-width: 768px) {
   .mobileOverlay {
     display: flex;
-    z-index: 10; 
+    
   }
 
   .projectCard:hover .projectOverlay {
