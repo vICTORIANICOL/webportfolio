@@ -39,12 +39,13 @@ export const Projects = () => {
     },
 
     {
-      title: "Hotel",
+      title: "Hotel Skagen Demo",
       image: img4,
       description:
-        "During my internship at Indexed.dk, I worked from a provided Figma file to replicate the design and some functionality of the Hotels Skagen website using WordPress, Elementor, JavaScript and custom CSS. The site is fully responsive, optimized for both desktop and mobile. This is a training project and not the actual Hotels Skagen website.",
+        "During my internship at Indexed.dk, I worked from a provided Figma file to replicate the design and some functionality of the Hotel Skagen website using WordPress, Elementor, JavaScript and custom CSS. The site is fully responsive, optimized for both desktop and mobile. This is a training project and not the actual Hotels Skagen website.",
       tech: ["Wordpress", "Elementor", "JavaScript", "CSS", "Figma"],
-      link: "",
+      link: "https://skagen.indexed.dev/ ",
+      logIn: "user: dev Password: demo12345",
     },
   ];
 
