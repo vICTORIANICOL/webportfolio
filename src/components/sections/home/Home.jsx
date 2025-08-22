@@ -147,7 +147,7 @@ export const Home = () => {
                 Contact Me
               </a>
               <a
-                href="/CVictoria.pdf"
+                href="/CVVictoria.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className={`${styles.button} ${styles.secondary}`}
