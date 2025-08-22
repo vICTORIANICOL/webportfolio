@@ -33,7 +33,7 @@ export const Projects = () => {
       title: "Gowala Shopping",
       image: img3,
       description:
-        "This project is a mobile-only shopping application where users can browse and select products with ease. I implemented a full cart functionality, allowing users to add items, adjust quantities, remove products, and place orders directly from the app. The interface is optimized for smaller screens, ensuring a smooth and intuitive user experience from product selection to checkout.Additionally, the site includes a subscription option for users.",
+        "This mobile-only shopping app provides a seamless and intuitive shopping experience. Users can browse products, add items to their cart, adjust quantities, remove products, and place orders directly within the app. The app also includes a subscription feature for users.Product data is initially fetched from MongoDB database and stored in the device’s local storage. Because the app relies on this local storage, the product list will only display if the data is already saved—otherwise, users will not see the products or be able to interact with the cart.",
       tech: ["HTML", "CSS", "React", "JavaScript", "Figma", "MongoDB"],
       link: "https://victorianicol.github.io/mcd_web_gowala_server/",
     },
